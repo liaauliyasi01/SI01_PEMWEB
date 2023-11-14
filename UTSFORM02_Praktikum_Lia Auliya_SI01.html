@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membuat Form</title>
+</head>
+<body>    
+            <!-- fieldset & legend -->
+            <fieldset>
+                <legend>Booking Periksa Kesehatan Gigi</legend>
+                <div style="display: flex;">
+                    <!-- asside -->
+                    <aside style="margin-left: 20px;">
+                        <form action="" method="POST">
+                            <table>
+                                <tr>
+                                    <td>Nama pasien:</td>
+                                    <td><input type="text" name="name" placeholder="Enter Name"></td>
+                                </tr>
+                                <tr>
+                                    <td>Pilih Dokter:</td>
+                                    <td>
+                                        <select>
+                                            <option value="Drg. Amelia">Drg. Amelia</option>
+                                            <option value="Prof. Drg. Lia Auliya">Prof. Drg. Lia Auliya</option>
+                                            <option value="Prof. Dr. Fachry">Prof. Dr. Fachry</option>
+                                            <option value="Drg. Alvian">Drg. Alvian</option>
+
+                                        </select>
+                                </tr>
+                                <tr>
+                                    <td>Pilih Layanan:</td>
+                                    <td>
+                                        <select>
+                                            <option value="Perawatan Gigi Anak">Perawatan Gigi Anak</option>
+                                            <option value="Pemasangan Implan Gigi">Pemasangan Implan Gigi</option>
+                                            <option value="Mencabut Gigi">Cabut Gigi</option>
+                                            <option value="Menambal Gigi">Tambal Gigi</option>
+
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Keluhan:</td>
+                                    <td><input type="description" name="description" placeholder="description"></td>
+                                </tr>
+                                <tr>
+                                    <td>Pembayaran:</td>
+                                    <td>
+                                        <input type="radio" name="jk" value="1">Cash
+                                        <input type="radio" name="jk" value="1">Tranfer
+                                        <input type="radio" name="jk" value="1">eWallet
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Tanggal Periksa:</td>
+                                    <td><input type="date" name="tanggal"></td>
+                                </tr>
+                                 <tr>
+                                    <td>Umur:</td>
+                                    <td><input type="umur" name="umur" placeholder="Enter umur"></td>
+                                </tr>
+                                <tr>
+                                    <td>Telepon/Hp:</td>
+                                    <td><input type="Telepon/Hp" name="Telepon/Hp" placeholder="Nomor Telepon"></td>
+                                </tr>
+                                <tr>
+                                    <td>Email:</td>
+                                    <td><input type="email" name="email" placeholder="Enter email"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="submit" name="proses" value="submit" style="box-shadow: 4px 3px 2px black; background-color: white; color:black"></td>
+                                    <td><input type="reset" name="unproses" value="reset" style="box-shadow: 4px 3px 2px black; background-color: white; color:black"></td>
+                                </tr>
+                            </table>  
+                    </aside>
+
+                    
+
+
+
+
+            </fieldset>
+</body>
+</html>
